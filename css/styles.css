@@ -1,0 +1,189 @@
+header a{
+    text-decoration: none; /* quita subrayado a todos los enlaces de la página, pues estos vienen con un subrayado por defecto */
+    color: black;
+  }
+  header{
+      text-align: center;
+  }
+  
+#titulodepagina{
+    font-size: 96px;
+    font-weight: 200;
+    padding-bottom:  15px;
+    margin-bottom: 10px;
+    font-family:'Allura', cursive;
+    border-bottom: double 5px black;
+   
+  
+}
+h1{
+    font-size: 96px;
+    font-weight: 200;
+    font-family:'Allura', cursive;
+    
+}
+#shinigami{
+    margin-top: 5px;
+}
+.menu li{
+    text-align: center;
+    padding: 15px;
+    width: 168px;
+   
+}
+
+header ul{ 
+    display: flex;
+    justify-content: center; 
+    list-style-type: none; /* quita la viñeta */
+
+    font-size: 24px;
+    font-family: 'Orbitron', sans-serif;
+}
+#new_single {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#new_single div {
+
+    text-align: center;
+    width: 470px;
+    padding: 15px;
+}
+.plataformas1 {
+    display: flex;
+    justify-content: center;
+    
+}
+.plataformas1 li{
+    padding: 15px;
+}
+#discografia{
+    display: flex;
+    align-items: center;
+}
+.albums h3{
+    padding-left: 95px;
+}
+.sencillos h3{
+    padding-left: 95px;
+}
+#discografia div h2{
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    height: 53px;
+    margin: 0px;
+
+}
+#titulo{
+    width: 370px;
+}
+#contenido2{
+    width: 905px;
+    height: 700px;
+    margin-top: 40px;
+}
+#discografia div ul {
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+#discografia li{
+    padding: 15px;
+}
+#videos h2{
+    display: flex;
+    justify-content: center;
+}
+#videos ul{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.videosfila1 {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.videosfila2 { 
+    padding-bottom: 50px;
+}
+#videos li{
+    padding: 15px
+}
+#merch h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 67px;
+}
+#merch div{
+    display: flex;
+    justify-content: center;
+}
+.ropa { 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 60px;
+    padding-bottom: 80px;
+}
+.stickers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60px;
+    padding-bottom: 80px;
+}
+ul{
+	list-style-type: none; /* quita la viñeta */
+}
+p{
+    font-weight: 300;
+}
+h2{
+    font-size: 36px;
+    font-weight: 300;
+    font-family:'Orbitron', sans-serif;
+}
+h3{
+    font-size: 32px;
+    font-weight: 300;
+    font-family:'Orbitron', sans-serif;
+}
+h4{
+    font: size 24px; 
+    font-weight: 300;
+    font-family:'Orbitron', sans-serif;
+}
+.bg_i01{
+    text-align: center;
+    height: 500px;
+    width: 1446px;
+    background-image:url("../images/covershinagamieyes.png");
+    color: white;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+}
+.icono_g{
+    padding-left: 205px;
+}
+#redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#redes ul{
+    display: flex;
+    justify-content: flex-start;
+    width: 705px;
+}
+#redes li{
+    padding: 15px;
+}
